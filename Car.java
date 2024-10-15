@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 public class Car {
 
 
@@ -47,7 +49,6 @@ public class Car {
    }
 }
 
-import java.util.HashMap;
 
 
 public class CarService {
@@ -88,9 +89,6 @@ public class CarService {
    }
 }
 
-import java.util.HashMap;
-
-
 public class Cache {
    public HashMap<String, Object> cache = new HashMap<>();
 
@@ -113,6 +111,4 @@ public class Cache {
    public HashMap<String, Object> getAll() {
        return cache;
    }
-
-
 }
