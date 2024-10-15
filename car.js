@@ -18,9 +18,10 @@ class FakeDatabase {
   }
   
   class CarService {
+    static cache = {};
+
     constructor() {
       this.db = new FakeDatabase();
-      this.cache = {};
     }
   
     async getCarInfo(carId) {
